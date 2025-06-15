@@ -6,7 +6,8 @@ using namespace std;
 int main(){
   string original_text;
   int shift;
-  cin>>"Enter the shift (int)"<<endl;
+  cout<<"Enter the shift (int)"<<endl;
+  cin>>shift;
   cout<<"Enter the original string"<<endl;
   cin>>original_text;
   cout<<"The encrypted text is "<<endl;
