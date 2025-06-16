@@ -31,6 +31,7 @@ auto caeser_cipher_decryption(string encrypted_text, int shift){
       int b = int(a) - 97;
       shift%=26;
       b-=shift;
+      b+=26;
       b%=26;
       b+=97;
       char d = char(b);
