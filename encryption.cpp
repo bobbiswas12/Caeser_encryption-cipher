@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-#include "caeser_cipher_encryption.cpp"
+#include "caeser_cipher.cpp"
 #include <sstream>
 using namespace std;
 
